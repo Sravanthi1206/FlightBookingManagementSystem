@@ -72,13 +72,13 @@ src/
 ## 2️⃣ Configure Database
 
 ```sql
-CREATE DATABASE flightapp;
+CREATE DATABASE flightdb;
 ```
 
 `application.properties`:
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/flightapp
+spring.datasource.url=jdbc:mysql://localhost:3306/flightdb
 spring.datasource.username=root
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
